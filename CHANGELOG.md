@@ -1,5 +1,32 @@
 # Changelog
 
+## [1.33.0](https://github.com/jdx/hk/compare/v1.32.0..v1.33.0) - 2026-01-22
+
+### 🚀 Features
+
+- add LLM-generated creative release titles by [@jdx](https://github.com/jdx) in [#624](https://github.com/jdx/hk/pull/624)
+
+### 🐛 Bug Fixes
+
+- strip LLM preamble from generated release notes by [@jdx](https://github.com/jdx) in [#618](https://github.com/jdx/hk/pull/618)
+- start the job progress hidden by [@thejcannon](https://github.com/thejcannon) in [#631](https://github.com/jdx/hk/pull/631)
+
+### 🚜 Refactor
+
+- Add `before`/`after` variables to `ruff_format.pkl` tests by [@thejcannon](https://github.com/thejcannon) in [#623](https://github.com/jdx/hk/pull/623)
+- test expectations into helpers by [@thejcannon](https://github.com/thejcannon) in [#625](https://github.com/jdx/hk/pull/625)
+
+### 📚 Documentation
+
+- improve CLAUDE.md with workspace structure and testing info by [@jdx](https://github.com/jdx) in [#621](https://github.com/jdx/hk/pull/621)
+- Add linebreaks to shanty by [@thejcannon](https://github.com/thejcannon) in [#626](https://github.com/jdx/hk/pull/626)
+- Fix `condition` docstring to use `exec` by [@thejcannon](https://github.com/thejcannon) in [#630](https://github.com/jdx/hk/pull/630)
+
+### 🧪 Testing
+
+- markdownlint builtin by [@thejcannon](https://github.com/thejcannon) in [#628](https://github.com/jdx/hk/pull/628)
+- gofmt by [@thejcannon](https://github.com/thejcannon) in [#603](https://github.com/jdx/hk/pull/603)
+
 ## [1.32.0](https://github.com/jdx/hk/compare/v1.31.0..v1.32.0) - 2026-01-19
 
 ### 🚀 Features
